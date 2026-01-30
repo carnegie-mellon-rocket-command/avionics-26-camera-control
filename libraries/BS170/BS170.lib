@@ -1,0 +1,54 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BS170
+#
+DEF BS170 Q 0 40 N N 1 L N
+F0 "Q" 125 35 50 H V L BNN
+F1 "BS170" 135 -70 50 H V L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "ON Semiconductor" 0 0 50 H I L BNN "MF"
+F5 "\n                        \n                            N-Channel 60 V 500mA (Ta) 830mW (Ta) Through Hole TO-92-3\n                        \n" 0 0 50 H I L BNN "Description"
+F6 "TO-92-3 ON Semiconductor" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/BS170/Onsemi/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F9 "BS170" 0 0 50 H I L BNN "MP"
+F10 "In Stock" 0 0 50 H I L BNN "Availability"
+F11 "https://www.snapeda.com/parts/BS170/Onsemi/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+$FPLIST
+ SOT54ES
+ TO92-L2
+ SOT54E
+$ENDFPLIST
+DRAW
+C 100 -75 10 0 0 16 N
+S -10 -100 20 -50 0 0 0 F
+S -10 50 20 100 0 0 0 F
+S -10 -35 20 35 0 0 0 F
+P 2 0 0 10 -44 95 -44 0 N
+P 2 0 0 6 100 75 21 75 N
+P 2 0 0 6 100 100 100 75 N
+P 2 0 0 6 100 0 100 -75 N
+P 2 0 0 6 20 0 70 15 N
+P 2 0 0 6 70 15 70 -15 N
+P 2 0 0 6 70 -15 20 0 N
+P 2 0 0 6 20 0 45 0 N
+P 2 0 0 6 45 0 100 0 N
+P 2 0 0 6 20 -75 100 -75 N
+P 2 0 0 6 100 -75 100 -100 N
+P 2 0 0 6 -44 0 -100 0 N
+P 2 0 0 10 -44 0 -44 -100 N
+P 2 0 0 12 65 5 45 0 N
+P 2 0 0 12 45 0 65 -5 N
+T 0 50 95 32 0 0 0 D Normal 0 L B
+T 0 45 -125 32 0 0 0 S Normal 0 L B
+T 0 -95 15 32 0 0 0 G Normal 0 L B
+X ~ D 100 200 100 D 40 40 0 0 P 
+X ~ G -200 0 100 R 40 40 0 0 P 
+X ~ S 100 -200 100 U 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
